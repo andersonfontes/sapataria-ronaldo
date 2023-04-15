@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.menu-navegacao {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+.menu-navegacao ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.menu-navegacao li {
+    padding: 20px;
+}
+
+.menu-navegacao a {
+    text-decoration: none;
+}
+
+.titulo-pagina {
+    font-family: 'Lobster', cursive;
+    margin: 40px auto 10px;
+    padding-left: 10px;
+    width: 80%;
+    font-size: 48pt;
+    font-weight: 400;
+    color: SaddleBrown;
+}
