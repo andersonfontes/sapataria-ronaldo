@@ -76,14 +76,14 @@ main {
 }
 .vitrine-produtos ul{
   list-style: none;
+  padding-left: 0;
 }
 
 .container-produtos {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  margin: 10px;
-  
+  margin: 10px 0;  
 }
 
 .imagem-produto {
