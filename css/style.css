@@ -9,12 +9,10 @@ main {
   width: 80%;
 }
 
-
 .menu-navegacao {
   width: 80%;
   margin: auto;
 }
-
 
 
 .menu-navegacao ul {
@@ -38,7 +36,7 @@ main {
   width: 80%;
   font-size: 48pt;
   font-weight: 600;
-  color: SaddleBrown;
+  color: SaddleBrown;  
 }
 
 .subtitulo-pagina {
@@ -46,6 +44,11 @@ main {
   padding-left: 10px;
   width: 80%;
   font-size: 20pt;
+  line-height: 35pt;  
+}
+.titulo-artigo {
+  font-size: 18pt;
+  margin: 10px 10px 10px 10px;
 }
 
 .paragrafo-artigo {
@@ -62,7 +65,7 @@ main {
 }
 
 .vitrine-produtos {
-  margin: 10px; 
+  margin: 10px;   
 }
 
 .categoria-produtos {
@@ -83,7 +86,9 @@ main {
 .container-produtos {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;  
+  align-items: baseline;
+  padding-bottom: 20px;  
+  padding-top: -10px; 
 }
 
 .imagem-produto {
@@ -92,4 +97,9 @@ main {
   object-fit: contain;
   object-position: 0 0;
   
+}
+.footer {
+  background-color: SaddleBrown;
+  color: #ffffff;
+  padding: 20px;
 }
